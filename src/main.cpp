@@ -2,6 +2,9 @@
 #include <WiFi.h>
 #include <WebServer.h>
 
+const char* ssid = "your_SSID";
+const char* password = "your_PASSWORD";
+
 // Analog soil sensor pins (A1 - A4)
 const int SOIL_SENSOR_1 = 1;
 const int SOIL_SENSOR_2 = 2;
